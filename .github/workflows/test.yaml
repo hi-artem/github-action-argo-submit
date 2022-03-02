@@ -1,0 +1,14 @@
+   
+name: test
+
+defaults:
+  run:
+    shell: bash
+
+on:
+  pull_request:
+    branches:    
+      - '*'
+      
+jobs:
+  - run: echo "testing testing"
